@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="ci-sample-php-job1" default="build" basedir=".">
+<project name="samplephp" default="build" basedir=".">
  <target name="build"
    depends="prepare,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,phpcb"/>
 
